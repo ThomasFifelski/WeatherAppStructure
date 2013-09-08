@@ -1,5 +1,6 @@
 package com.weatherornot.weatherornot;
 
+import android.content.Intent;
 import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -24,17 +25,42 @@ public class DisplayWeatherActivity extends Activity {
         Log.e("look","howbout now");
         goGetWeatherData();
 
-        Button toData = (Button)findViewById(R.id.to_data);
+//
+//        Button toData = (Button)findViewById(R.id.to_data);
+//
+//        toData.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i =new Intent(getApplicationContext(),FlyInfo.class);
+//                  startActivity(i);
+//                    finish();
+//
+//            }
+//        });
+//        buttonToSecondActivity.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i =new Intent(getApplicationContext(),FlyInfo.class);
+//                startActivity(i);
+//                finish();
+//
+//
+//
+//            }
+//        });
 
-        toData.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.fly_info);
-            }
-        });
 
 
     }
+//        toData.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(a)
+//                //setContentView(R.layout.fly_info);
+//            }
+//        });
+
+
 
 
 
@@ -73,7 +99,7 @@ public class DisplayWeatherActivity extends Activity {
         TextView z =(TextView)findViewById(R.id.textView49);
         z.setText(myData.getmPressureString());
 
-        TextView a =(TextView)findViewById(R.id.textView6);
+        TextView a =(TextView)findViewById(R.id.textView48);
         a.setText(myData.getmVisibiltyString());
 
 

@@ -5,7 +5,7 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context=".Fly "
+              tools:context=".FlyInfo "
               android:background="#3828ff">
     <EditText
             android:layout_width="160dp"
@@ -31,20 +31,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
-
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:text="Fly or no Fly"
-
-                android:id="@+id/textView19"
-                android:layout_marginTop="-2dp"
-                android:textSize="80dp"
-                android:typeface="normal"
-                android:visibility="visible"
-                android:gravity="center|center_vertical|center_horizontal"/>
-
-
 
 
     </LinearLayout>

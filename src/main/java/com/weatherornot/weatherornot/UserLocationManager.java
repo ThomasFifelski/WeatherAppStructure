@@ -42,10 +42,10 @@ public class UserLocationManager implements LocationListener{
 
         //ill be told the location here.
  //       Log.e("UserLocationManager=", location.getLatitude() + "," + location.getLongitude());
-
-        mPopulateDataTask.receiveUserLocation(location);
         locationManager.removeUpdates(this);
         locationManager = null;
+        mPopulateDataTask.receiveUserLocation(location);
+
 
 ////       fix error by stopping looking for location change again  locationListenerObject
       //onLocationChanged(location).removeGpsStatusListener(this);
