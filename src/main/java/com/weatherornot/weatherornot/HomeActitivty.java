@@ -14,18 +14,20 @@ import android.widget.TextView;
 
 //The main activity that we will be using to display weather data
 
-public class DisplayWeatherActivity extends Activity {
+public class HomeActitivty extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         Log.e("here","are we");
         Button toData = (Button)findViewById(R.id.to_data);
 
         toData.setOnClickListener(new View.OnClickListener() {
 
-
+        @Override
             public void onClick(View view) {
                 Intent i =new Intent(getApplicationContext(),SecondActivity.class);
                 startActivity(i);

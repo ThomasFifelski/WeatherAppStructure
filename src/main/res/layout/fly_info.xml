@@ -43,12 +43,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="10">
 
         <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="New Text"
+                android:layout_height="wrap_content"
+                android:text="WindSpeed"
                 android:id="@+id/textView3"
                 android:layout_gravity="left"
                 android:layout_weight="10" />
@@ -58,15 +58,15 @@
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/textView4"
+                android:text="windSpeedreading"
+                android:id="@+id/windSpeedOutput"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="MPH"
                 android:id="@+id/textView6"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
@@ -77,27 +77,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="10">
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/textView7"
+                android:text="Windbearing"
+                android:id="@+id/windSpeedView"
                 android:layout_gravity="left"
                 android:layout_weight="10" />
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/textView8"
+                android:id="@+id/windBearingView"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="NW"
                 android:id="@+id/textView10"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
@@ -113,12 +113,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="10">
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="Pressure"
                 android:id="@+id/textView11"
                 android:layout_gravity="left"
                 android:layout_weight="10" />
@@ -126,14 +126,14 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/textView12"
+                android:id="@+id/pressure"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="mmHG"
                 android:id="@+id/textView14"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
@@ -142,35 +142,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="10">
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="Visibility"
                 android:id="@+id/textView15"
                 android:layout_gravity="left"
                 android:layout_weight="10" />
         <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:text="New Text"
-                android:id="@+id/textView16"
-                android:layout_gravity="center"
+                android:id="@+id/visibility"
                 android:layout_weight="10" />
 
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="miles"
                 android:id="@+id/textView18"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
+
     </LinearLayout>
 
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
 
-
-
+            android:layout_marginTop="164dp"/>
 
 
 </LinearLayout>

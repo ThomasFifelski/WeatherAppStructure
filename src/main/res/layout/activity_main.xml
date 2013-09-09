@@ -54,7 +54,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Zip Code"
         android:id="@+id/zip"
-        android:layout_below="@+id/windSpeedView"
+        android:layout_below="@+id/j"
         android:layout_alignLeft="@+id/windSpeedView"/>
 
 <Button

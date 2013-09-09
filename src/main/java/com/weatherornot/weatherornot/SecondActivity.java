@@ -91,17 +91,17 @@ public PopulateDataTask getWeatherData;
     public void recieveWeatherData(KiteFlyingData myData){
 
         Log.e (" look", "hey you ");
-//
-//        TextView x = (TextView) findViewById(R.id.windSpeedView);
-//        x.setText(myData.getmWindSpeedString());
-////
-//        TextView y =(TextView)findViewById(R.id.textView50);
-//        y.setText(myData.getmWindBearingString());
-//
-//        TextView z =(TextView)findViewById(R.id.textView49);
-//        z.setText(myData.getmPressureString());
 
-        TextView a =(TextView)findViewById(R.id.textView15);
+        TextView x = (TextView) findViewById(R.id.windSpeedOutput);
+        x.setText(myData.getmWindSpeedString());
+//
+        TextView y =(TextView)findViewById(R.id.windBearingView);
+        y.setText(myData.getmWindBearingString());
+
+        TextView z =(TextView)findViewById(R.id.pressure);
+        z.setText(myData.getmPressureString());
+
+        TextView a =(TextView)findViewById(R.id.visibility);
         a.setText(myData.getmVisibiltyString());
 
 
