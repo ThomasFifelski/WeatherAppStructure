@@ -30,7 +30,8 @@ public class UserLocationManager implements LocationListener{
            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
 
 
-        }catch (Exception e){ e.printStackTrace();
+        }catch (Exception e){
+            e.printStackTrace();
 
         }
 
@@ -42,7 +43,11 @@ public class UserLocationManager implements LocationListener{
 
         //ill be told the location here.
  //       Log.e("UserLocationManager=", location.getLatitude() + "," + location.getLongitude());
-        locationManager.removeUpdates(this);
+        if (locationManager != null){
+            locationManager.removeUpdates(this);
+        }
+
+
         locationManager = null;
         mPopulateDataTask.receiveUserLocation(location);
 

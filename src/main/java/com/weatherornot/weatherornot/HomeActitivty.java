@@ -2,6 +2,7 @@ package com.weatherornot.weatherornot;
 
 import android.content.Intent;
 import android.location.Location;
+import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
@@ -24,11 +25,14 @@ public class HomeActitivty extends Activity {
 
         Log.e("here","are we");
         Button toData = (Button)findViewById(R.id.to_data);
-
+////        final Button sound= (Button)this.findViewById(R.id.to_data);
+//        final MediaPlayer mp = MediaPlayer.create(this, R.raw.wind);
         toData.setOnClickListener(new View.OnClickListener() {
+
 
         @Override
             public void onClick(View view) {
+//                mp.start();
                 Intent i =new Intent(getApplicationContext(),SecondActivity.class);
                 startActivity(i);
                 finish( );

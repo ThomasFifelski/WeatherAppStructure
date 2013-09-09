@@ -6,7 +6,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               tools:context=".FlyInfo "
-              android:background="#3828ff">
+              android:background="@drawable/could_background">
     <EditText
             android:layout_width="160dp"
             android:layout_height="wrap_content"
@@ -22,6 +22,7 @@
             android:text="Zip Code"
             android:id="@+id/textView"
             android:layout_gravity="left"
+            android:textColor="#010101"
             android:layout_alignTop="@+id/editText"
             android:layout_alignParentLeft="true"/>
 
@@ -51,7 +52,8 @@
                 android:text="WindSpeed"
                 android:id="@+id/textView3"
                 android:layout_gravity="left"
-                android:layout_weight="10" />
+                android:layout_weight="10"
+                android:textColor="#010101"/>
 
 
 
@@ -60,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="windSpeedreading"
                 android:id="@+id/windSpeedOutput"
+                android:textColor="#010101"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
 
@@ -67,6 +70,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="MPH"
+                android:textColor="#010101"
                 android:id="@+id/textView6"
                 android:layout_gravity="center"
                 android:layout_weight="10" />
@@ -85,13 +89,15 @@
                 android:text="Windbearing"
                 android:id="@+id/windSpeedView"
                 android:layout_gravity="left"
-                android:layout_weight="10" />
+                android:layout_weight="10"
+                android:textColor="#010101"/>
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="New Text"
                 android:id="@+id/windBearingView"
                 android:layout_gravity="center"
+                android:textColor="#010101"
                 android:layout_weight="10" />
 
         <TextView
@@ -100,6 +106,7 @@
                 android:text="NW"
                 android:id="@+id/textView10"
                 android:layout_gravity="center"
+                android:textColor="#010101"
                 android:layout_weight="10" />
 
 
@@ -121,6 +128,7 @@
                 android:text="Pressure"
                 android:id="@+id/textView11"
                 android:layout_gravity="left"
+                android:textColor="#010101"
                 android:layout_weight="10" />
         <TextView
                 android:layout_width="fill_parent"
@@ -128,6 +136,7 @@
                 android:text="New Text"
                 android:id="@+id/pressure"
                 android:layout_gravity="center"
+                android:textColor="#010101"
                 android:layout_weight="10" />
 
         <TextView
@@ -136,6 +145,7 @@
                 android:text="mmHG"
                 android:id="@+id/textView14"
                 android:layout_gravity="center"
+                android:textColor="#010101"
                 android:layout_weight="10" />
     </LinearLayout>
     <LinearLayout
@@ -150,12 +160,14 @@
                 android:text="Visibility"
                 android:id="@+id/textView15"
                 android:layout_gravity="left"
+                android:textColor="#010101"
                 android:layout_weight="10" />
         <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_height="wrap_content"
                 android:text="New Text"
                 android:id="@+id/visibility"
+                android:textColor="#010101"
                 android:layout_weight="10" />
 
         <TextView
@@ -164,16 +176,27 @@
                 android:text="miles"
                 android:id="@+id/textView18"
                 android:layout_gravity="center"
+                android:textColor="#010101"
                 android:layout_weight="10" />
 
     </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good or Bad day to Fly"
+            android:id="@+id/goodorbad"
+            android:layout_gravity="center"
+            android:textColor="#010101"
+            android:layout_weight="10" />
+
 
     <ImageView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView"
-
-            android:layout_marginTop="164dp"/>
+            android:id="@id/imageViewd"
+            android:src="@drawable/badday"
+            android:textColor="#010101"
+            android:layout_marginTop="2dp"/>
 
 
 </LinearLayout>

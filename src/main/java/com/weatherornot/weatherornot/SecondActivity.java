@@ -2,6 +2,7 @@ package com.weatherornot.weatherornot;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -13,17 +14,18 @@ import android.widget.TextView;
  * Created by tom on 9/9/13.
  */
 public class SecondActivity extends Activity {
-
+    public MediaPlayer mp ;
 // change
-public PopulateDataTask getWeatherData;
-//    public PopulateAWeatherDataObject myWeatherDataPopulator;
+    public PopulateDataTask getWeatherData;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fly_info);
        Log.e("look", "howbout now");
-
+        mp = MediaPlayer.create(this, R.raw.wind);
+        mp.start();
         goGetWeatherData();
 
 

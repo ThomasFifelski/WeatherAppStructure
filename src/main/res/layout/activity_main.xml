@@ -8,7 +8,7 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context=".MainActivity"
-                android:background="#4c32ff">
+                android:background="@drawable/could_background">
 
 <EditText
         android:layout_width="160dp"
@@ -17,55 +17,19 @@
         android:text=" "
         android:layout_centerHorizontal="true"
         android:textColor="#ffffff"/>
-<TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        android:id="@+id/windSpeedView"
-        />
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="New Text"
-            android:id="@+id/textView50"
-            android:layout_weight="10"
-            android:layout_alignTop="@+id/ed1"
-            android:layout_alignLeft="@+id/ed1"
-            android:layout_marginLeft="25dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        android:id="@+id/textView49"
-        android:layout_alignRight="@id/textView50"
-        />
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            android:id="@+id/textView48"
-            android:layout_above="@+id/to_data"
-            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Zip Code"
-        android:id="@+id/zip"
-        android:layout_below="@+id/j"
-        android:layout_alignLeft="@+id/windSpeedView"/>
 
 <Button
         android:layout_width="wrap_content"
         android:layout_height="180dp"
 
-        android:text="Is today the Day We Fly Kites?"
+        android:text="Is it good Kite Flying weather?"
         android:id="@+id/to_data"
         android:layout_marginBottom="22dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#3329ce"/>
+        android:background="@drawable/fly_or_die"
+        android:textColor="#000000"/>
 
 </RelativeLayout>
