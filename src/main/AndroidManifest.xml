@@ -26,8 +26,9 @@
             </intent-filter>
         </activity>
 
-        <!--<activity-->
-             <!--//   android:name=".FlyInfo " />-->
+        <activity
+               android:name=".SecondActivity" />
+
     </application>
 
 </manifest>

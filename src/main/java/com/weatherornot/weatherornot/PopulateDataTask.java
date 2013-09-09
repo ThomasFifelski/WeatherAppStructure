@@ -23,10 +23,10 @@ import java.io.ByteArrayOutputStream;
  */
 public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer,KiteFlyingData> {
     UserLocationManager getLocationData;
-    DisplayWeatherActivity myFriendDisplayWeatherActivity;
+    SecondActivity myFriendDisplayWeatherActivity;
 
    //step 2
-    public PopulateDataTask(DisplayWeatherActivity activity){
+    public PopulateDataTask(SecondActivity activity){
 
         super();
         Log.e("look","3");
