@@ -22,7 +22,8 @@ public PopulateDataTask getWeatherData;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fly_info);
-        Log.e("look", "howbout now");
+       Log.e("look", "howbout now");
+
         goGetWeatherData();
 
 
@@ -85,11 +86,6 @@ public PopulateDataTask getWeatherData;
         Log.e("look","2");
         getWeatherData = new PopulateDataTask(this);
     }
-//        this method could also take two double parameters for lat and
-//        long depending on how you want to move the data around.
-//        myWeatherDataPopulator = new PopulateAWeatherDataObject(this);
-//        myWeatherDataPopulator.execute(location);
-//    }
 
     //step 8
     public void recieveWeatherData(KiteFlyingData myData){

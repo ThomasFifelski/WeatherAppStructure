@@ -20,11 +20,12 @@ public class DisplayWeatherActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        Log.e("here","are we");
         Button toData = (Button)findViewById(R.id.to_data);
 
         toData.setOnClickListener(new View.OnClickListener() {
-            @Override
+
+
             public void onClick(View view) {
                 Intent i =new Intent(getApplicationContext(),SecondActivity.class);
                 startActivity(i);
