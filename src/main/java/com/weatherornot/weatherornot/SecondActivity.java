@@ -26,6 +26,7 @@ public class SecondActivity extends Activity {
        Log.e("look", "howbout now");
         mp = MediaPlayer.create(this, R.raw.wind);
         mp.start();
+
         goGetWeatherData();
 
 
