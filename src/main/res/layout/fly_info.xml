@@ -6,7 +6,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               tools:context=".FlyInfo "
-              android:background="@drawable/could_background">
+              android:background="@drawable/cloud2">
     <EditText
             android:layout_width="160dp"
             android:layout_height="wrap_content"
@@ -194,7 +194,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@id/imageViewd"
-            android:src="@drawable/badday"
+            android:src="@drawable/kite_3"
             android:textColor="#010101"
             android:layout_marginTop="2dp"/>
 
