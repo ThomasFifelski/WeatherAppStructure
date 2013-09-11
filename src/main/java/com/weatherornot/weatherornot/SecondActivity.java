@@ -1,13 +1,10 @@
 package com.weatherornot.weatherornot;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -98,13 +95,13 @@ public class SecondActivity extends Activity {
         TextView x = (TextView) findViewById(R.id.windSpeedOutput);
         x.setText(myData.getmWindSpeedString());
 //
-        TextView y =(TextView)findViewById(R.id.windBearingView);
+        TextView y =(TextView)findViewById(R.id.bearingView);
         y.setText(myData.getmWindBearingString());
 
-        TextView z =(TextView)findViewById(R.id.pressure);
+        TextView z =(TextView)findViewById(R.id.windBearingView);
         z.setText(myData.getmPressureString());
 
-        TextView a =(TextView)findViewById(R.id.visibility);
+        TextView a =(TextView)findViewById(R.id.visibilityView);
         a.setText(myData.getmVisibiltyString());
 
 
