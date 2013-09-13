@@ -20,7 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Location"
+            android:text=""
+            android:hint="Location"
             android:id="@+id/textView"
             android:layout_gravity="center"
             android:textColor="#010101"
@@ -105,7 +106,7 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="Loading..."
             android:id="@+id/windBearingView"
 
             android:textColor="#010101"
@@ -139,7 +140,7 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="windSpeedreading"
+            android:text="Loading..."
             android:id="@+id/windSpeedOutput"
             android:textColor="#010101"
             android:layout_gravity="center"
@@ -150,7 +151,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="Loading..."
             android:textColor="#010101"
             android:id="@+id/bearingView"
             android:layout_above="@+id/textView11"
@@ -159,7 +160,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="Loading..."
             android:textColor="#010101"
             android:id="@+id/visibilityView"
             android:layout_below="@+id/textView11"

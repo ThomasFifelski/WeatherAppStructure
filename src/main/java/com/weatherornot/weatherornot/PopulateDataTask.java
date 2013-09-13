@@ -2,8 +2,6 @@ package com.weatherornot.weatherornot;
 
 import android.location.Location;
 import android.os.AsyncTask;
-
-import android.graphics.Bitmap;
 import android.util.Log;
 
 import org.apache.http.HttpResponse;
@@ -13,7 +11,6 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
-import org.json.JSONTokener;
 
 import java.io.ByteArrayOutputStream;
 
@@ -33,9 +30,19 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
         myFriendDisplayWeatherActivity = activity;
         goGetLocation();
     }
+
+    public PopulateDataTask(SecondActivity activity, Location loc){
+
+        super();
+        Log.e("look","3");
+        myFriendDisplayWeatherActivity = activity;
+        //goGetLocation();
+        receiveUserLocation(loc);
+    }
 //step 3
     public void goGetLocation(){
         Log.e("look","5");
+
          getLocationData = new UserLocationManager(this);
     }
 
@@ -56,6 +63,7 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
         //get the information that we need from API
         try {
             HttpClient httpClient = new DefaultHttpClient();
+         //  http://api.geonames.org/postalCodeSearchJSON?placename=9011&maxRows=10&username=tomfifelski
             HttpGet g = new HttpGet(forecastAPIRequestObjects[0].getAssembledURL());
             HttpResponse httpResponse = httpClient.execute(g);
             StatusLine statusLine = httpResponse.getStatusLine();

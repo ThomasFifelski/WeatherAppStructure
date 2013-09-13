@@ -31,7 +31,7 @@ public class KiteFlyingData {
         return mWindBearing.toString();
     }
 
-    public void setmWindBearing(double mWindBearing) {
+    public void setmWindBearing(Double mWindBearing) {
         this.mWindBearing = mWindBearing;
     }
 

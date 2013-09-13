@@ -1,6 +1,7 @@
 package com.weatherornot.weatherornot;
 
 import android.app.Activity;
+import android.location.Location;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
@@ -24,8 +25,22 @@ public class SecondActivity extends Activity {
         mp = MediaPlayer.create(this, R.raw.wind);
         mp.start();
 
-        goGetWeatherData();
+        double a;
+        double b;
 
+        a =  getIntent().getDoubleExtra("lat",0);
+        b = getIntent().getDoubleExtra("long",0);
+
+
+       // b= intent.getStringExtra("long",0);
+
+//        goGetWeatherData();
+
+        Location l = new Location("");
+        l.setLatitude(a);
+        l.setLongitude(b);
+
+        goGetWeatherData2(l);
 
 //
 //        Button toData = (Button)findViewById(R.id.to_data);
@@ -54,8 +69,6 @@ public class SecondActivity extends Activity {
 //            }
 //        });
 
-
-
     }
 
 
@@ -66,10 +79,6 @@ public class SecondActivity extends Activity {
 //                //setContentView(R.layout.fly_info);
 //            }
 //        });
-
-
-
-
 
 //    private void updateDisplay(){
 //
@@ -85,6 +94,11 @@ public class SecondActivity extends Activity {
     public void goGetWeatherData(){
         Log.e("look","2");
         getWeatherData = new PopulateDataTask(this);
+    }
+
+    public void goGetWeatherData2(Location loc)
+    {
+        getWeatherData = new PopulateDataTask(this,loc);
     }
 
     //step 8

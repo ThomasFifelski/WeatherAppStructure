@@ -7,8 +7,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
 
-import java.util.concurrent.Delayed;
-
 /**
  * Created by spawrks on 8/30/13.
  */
@@ -43,15 +41,18 @@ public class UserLocationManager implements LocationListener{
     @Override
     public void onLocationChanged(Location location) {
 
+
         //ill be told the location here.
  //       Log.e("UserLocationManager=", location.getLatitude() + "," + location.getLongitude());
         if (locationManager != null){
             locationManager.removeUpdates(this);
+
+            locationManager = null;
+            mPopulateDataTask.receiveUserLocation(location);
+
         }
 
 
-        locationManager = null;
-        mPopulateDataTask.receiveUserLocation(location);
 
 
 ////       fix error by stopping looking for location change again  locationListenerObject
