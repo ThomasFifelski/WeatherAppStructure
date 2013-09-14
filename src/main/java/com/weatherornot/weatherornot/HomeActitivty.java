@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -81,7 +82,11 @@ public class HomeActitivty extends Activity {
             try {
                 HttpClient httpClient = new DefaultHttpClient();
              //  String personalityURL = mAPI_Url.replace("jimmy",personality);
-                HttpGet g = new HttpGet(mAPI_Url);
+                 EditText et = (EditText) findViewById(R.id.ed1);
+                String str = et.getText().toString();
+               str = str.replace(' ', '_');
+//                System.out.println(str);
+                HttpGet g = new HttpGet(mAPI_Url.replace("cheese", str));
                 HttpResponse httpResponse = httpClient.execute(g);
                 StatusLine statusLine = httpResponse.getStatusLine();
                 if (statusLine.getStatusCode() == HttpStatus.SC_OK) {
@@ -102,7 +107,7 @@ public class HomeActitivty extends Activity {
                     //Parse the data from the api using JSONObject methods
                     JSONObject rootJSON= new JSONObject(responseString);
                     JSONArray postalCodesJson= rootJSON.getJSONArray("postalCodes");
-                    JSONObject spaceJson = (JSONObject) postalCodesJson.get(1);
+                    JSONObject spaceJson = (JSONObject) postalCodesJson.get(0);
 
                     Double lng= spaceJson.getDouble("lng");
                     mySpot.setLongitude(lng);
