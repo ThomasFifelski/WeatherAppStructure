@@ -7,7 +7,7 @@
               android:orientation="vertical"
               tools:context=".FlyInfo "
               android:background="@drawable/cloud2">
-    <EditText
+    <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:id="@+id/editText"
@@ -23,7 +23,7 @@
             android:text=""
             android:hint="Location"
             android:id="@+id/textView"
-            android:layout_gravity="center"
+            android:layout_gravity="right"
             android:textColor="#010101"
             android:layout_centerInParent="@+id/ed1"
             android:layout_below="@+id/editText"
@@ -56,8 +56,9 @@
             android:layout_gravity="left"
             android:textColor="#010101"
             android:layout_weight="10"
-            android:layout_below="@+id/textView14"
-            android:layout_alignRight="@+id/textView14"/>
+            android:textSize="20dp"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -90,7 +91,8 @@
             android:textColor="#010101"
             android:layout_weight="10"
             android:layout_below="@+id/windSpeedView"
-            android:layout_alignParentLeft="true"/>
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -101,7 +103,8 @@
             android:layout_weight="10"
             android:textColor="#010101"
             android:layout_below="@+id/windSpeed"
-            android:layout_alignRight="@+id/windSpeedOutput"/>
+            android:layout_alignRight="@+id/windSpeedOutput"
+            android:textSize="20dp"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -111,8 +114,9 @@
 
             android:textColor="#010101"
             android:layout_weight="10"
-            android:layout_alignTop="@+id/textView11"
-            android:layout_alignLeft="@+id/editText"/>
+            android:textSize="20dp"
+            android:layout_below="@+id/windSpeedView"
+            android:layout_alignLeft="@+id/bearingView"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -135,7 +139,9 @@
             android:textColor="#010101"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"/>
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"
+            android:textIsSelectable="false"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -145,8 +151,9 @@
             android:textColor="#010101"
             android:layout_gravity="center"
             android:layout_weight="10"
-            android:layout_alignTop="@+id/windSpeed"
-            android:layout_alignLeft="@+id/goodorbad"/>
+            android:layout_alignTop="@+id/textView6"
+            android:layout_alignLeft="@+id/bearingView"
+            android:textSize="20dp"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -154,8 +161,9 @@
             android:text="Loading..."
             android:textColor="#010101"
             android:id="@+id/bearingView"
-            android:layout_above="@+id/textView11"
-            android:layout_alignLeft="@+id/windBearingView"/>
+            android:textSize="20dp"
+            android:layout_below="@+id/windSpeed"
+            android:layout_alignRight="@+id/textView"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -163,8 +171,9 @@
             android:text="Loading..."
             android:textColor="#010101"
             android:id="@+id/visibilityView"
+            android:textSize="20dp"
             android:layout_below="@+id/textView11"
-            android:layout_alignLeft="@+id/windSpeedOutput"/>
+            android:layout_alignRight="@+id/textView"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -175,14 +184,18 @@
             android:layout_above="@+id/textView14"
             android:layout_alignLeft="@+id/textView14"/>
 
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView"
-            android:src="@drawable/kite_3"
+    <Button
+            android:layout_width="170dp"
+            android:layout_height="230dp"
+
+            android:background="@drawable/kite_3"
+            android:textColor="#000000"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/toHome"
             android:layout_below="@+id/goodorbad"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"/>
+            android:layout_centerHorizontal="true"/>
+
+
 
 
 </RelativeLayout>

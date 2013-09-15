@@ -1,11 +1,14 @@
 package com.weatherornot.weatherornot;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.location.Location;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -23,7 +26,7 @@ public class SecondActivity extends Activity {
         setContentView(R.layout.fly_info);
        Log.e("look", "howbout now");
         mp = MediaPlayer.create(this, R.raw.wind);
-        mp.start();
+
 
         double a;
         double b;
@@ -41,6 +44,17 @@ public class SecondActivity extends Activity {
         l.setLongitude(b);
 
         goGetWeatherData2(l);
+        Button toHome = (Button)findViewById(R.id.toHome);
+
+        toHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), HomeActitivty.class);
+                startActivity(i);
+                finish();
+            }
+
+        });
 
 //
 //        Button toData = (Button)findViewById(R.id.to_data);
