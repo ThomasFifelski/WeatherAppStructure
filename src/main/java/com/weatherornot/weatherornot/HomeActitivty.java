@@ -34,7 +34,10 @@ public class HomeActitivty extends Activity {
         setContentView(R.layout.activity_main);
 
 
-        Log.e("here","are we");
+
+
+
+                Log.e("here", "are we");
         Button toData = (Button)findViewById(R.id.to_data);
 
         toData.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +52,7 @@ public class HomeActitivty extends Activity {
             }
 
         });
+
     }
 
 //    Intent i = new Intent();

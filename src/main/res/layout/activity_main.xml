@@ -15,7 +15,9 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/ed1"
-        android:text=""
+
+        android:imeOptions="actionDone"
+        android:singleLine="true"
         android:hint="Enter Location"
         android:layout_centerHorizontal="true"
         android:textColor="#000000"

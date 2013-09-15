@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26dd1812-bd18-42e9-8133-43adf54b5aca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" afterPath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/fly_info.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/fly_info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -38,6 +38,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,7 +77,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="108" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="112" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -90,7 +92,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="133" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="137" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -105,7 +107,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="127" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="131" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -120,7 +122,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="110" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="114" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -135,7 +137,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="107" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="111" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -165,7 +167,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="82" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="86" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -180,7 +182,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="88" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="92" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -195,7 +197,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="89" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="93" class="com.weatherornot.weatherornot.HomeActitivty.GetLocationTask" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -210,7 +212,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="71" class="com.weatherornot.weatherornot.HomeActitivty" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" line="75" class="com.weatherornot.weatherornot.HomeActitivty" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -226,8 +228,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -237,24 +237,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeActitivty.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HomeActitivty.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2625">
-              <folding />
+            <state line="37" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.7404844" vertical-offset="41" max-vertical-offset="2385">
+              <folding>
+                <element signature="e#1225#1529#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="37" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-4.4444447" vertical-offset="270" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="-6.111111" vertical-offset="120" max-vertical-offset="825">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -279,21 +282,21 @@
       <file leaf-file-name="ForecastAPIRequestObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/ForecastAPIRequestObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="29" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="412" max-vertical-offset="1245">
+            <state line="50" column="29" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fly_info.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fly_info.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/fly_info.xml">
-          <provider editor-type-id="text-editor">
-            <state line="189" column="0" selection-start="6913" selection-end="6913" vertical-scroll-proportion="0.0" vertical-offset="2740" max-vertical-offset="3090">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="180" column="48" selection-start="6637" selection-end="6637" vertical-scroll-proportion="-7.259259" vertical-offset="2504" max-vertical-offset="3105">
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -309,11 +312,8 @@
       <file leaf-file-name="SecondActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="29" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2160">
-              <folding>
-                <element signature="e#1184#1449#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-              </folding>
+            <state line="45" column="29" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2295">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -369,16 +369,16 @@
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/UserLocationManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/PopulateDataTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/fly_info.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="46" />
+    <option name="x" value="-7" />
+    <option name="y" value="45" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
@@ -408,8 +408,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -484,17 +484,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="98" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="100" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="99" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="109" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="899" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="897" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="899" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="105" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="101" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -512,7 +512,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Background" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="461291b1" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -728,7 +728,11 @@
       <created>1379189642302</created>
       <updated>1379189642302</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="button added">
+      <created>1379264580697</created>
+      <updated>1379264580697</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -752,8 +756,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="46" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="45" width="1280" height="774" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62538224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -773,7 +777,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2082658" sideWeight="0.5045872" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49541286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49541286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -786,13 +790,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62538224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48012233" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2082658" sideWeight="0.5045872" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49541286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -851,7 +855,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit text works" />
+    <option name="LAST_COMMIT_MESSAGE" value="button added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -875,6 +879,7 @@
     <MESSAGE value="realtive layout" />
     <MESSAGE value="replaced gps" />
     <MESSAGE value="edit text works" />
+    <MESSAGE value="button added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,41 +965,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="2325">
+        <state line="45" column="29" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2160">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fly_info.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="29" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2160">
-          <folding>
-            <element signature="e#1184#1449#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-          </folding>
+        <state line="180" column="48" selection-start="6637" selection-end="6637" vertical-scroll-proportion="-7.259259" vertical-offset="2504" max-vertical-offset="3105">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-4.4444447" vertical-offset="270" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fly_info.xml">
-      <provider editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="6913" selection-end="6913" vertical-scroll-proportion="0.0" vertical-offset="2740" max-vertical-offset="3090">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="-6.111111" vertical-offset="120" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.7404844" vertical-offset="41" max-vertical-offset="2385">
+          <folding>
+            <element signature="e#1225#1529#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

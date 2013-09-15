@@ -68,8 +68,8 @@
             android:layout_gravity="center"
             android:textColor="#010101"
             android:layout_weight="10"
-            android:layout_alignTop="@+id/textView15"
-            android:layout_alignLeft="@+id/textView14"/>
+            android:layout_below="@+id/textView11"
+            android:layout_toRightOf="@+id/toHome"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -90,9 +90,10 @@
             android:layout_gravity="left"
             android:textColor="#010101"
             android:layout_weight="10"
-            android:layout_below="@+id/windSpeedView"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/windBearingView"
             android:layout_alignParentLeft="true"
-            android:textSize="20dp"/>
+            android:layout_marginLeft="14dp"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -107,7 +108,7 @@
             android:textSize="20dp"/>
 
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Loading..."
             android:id="@+id/windBearingView"
@@ -151,9 +152,9 @@
             android:textColor="#010101"
             android:layout_gravity="center"
             android:layout_weight="10"
+            android:textSize="20dp"
             android:layout_alignTop="@+id/textView6"
-            android:layout_alignLeft="@+id/bearingView"
-            android:textSize="20dp"/>
+            android:layout_alignLeft="@+id/bearingView"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -162,8 +163,8 @@
             android:textColor="#010101"
             android:id="@+id/bearingView"
             android:textSize="20dp"
-            android:layout_below="@+id/windSpeed"
-            android:layout_alignRight="@+id/textView"/>
+            android:layout_above="@+id/textView11"
+            android:layout_toLeftOf="@+id/textView14"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -182,7 +183,7 @@
             android:textColor="#010101"
             android:id="@+id/textView4"
             android:layout_above="@+id/textView14"
-            android:layout_alignLeft="@+id/textView14"/>
+            android:layout_toRightOf="@+id/goodorbad"/>
 
     <Button
             android:layout_width="170dp"
