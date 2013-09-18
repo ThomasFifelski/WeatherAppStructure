@@ -10,7 +10,7 @@
     <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:id="@+id/location_info"
             android:text=" "
             android:layout_centerHorizontal="true"
             android:textColor="#ffffff"
@@ -22,12 +22,12 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text=""
             android:hint="Location"
-            android:id="@+id/textView"
+            android:id="@+id/location_spot"
             android:layout_gravity="right"
             android:textColor="#010101"
             android:layout_centerInParent="@+id/ed1"
-            android:layout_below="@+id/editText"
-            android:layout_centerHorizontal="true"/>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
 
@@ -38,14 +38,14 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Good day or bad day to fly"
+            android:text="What a Great Day to Fly a Kite!"
             android:id="@+id/goodorbad"
 
             android:textColor="#010101"
             android:layout_weight="10"
-            android:layout_below="@+id/textView15"
-            android:layout_alignRight="@+id/editText"
-            android:layout_marginTop="12dp"/>
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
 
 
     <TextView
@@ -60,27 +60,6 @@
             android:layout_below="@+id/textView11"
             android:layout_alignParentLeft="true"/>
 
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="miles"
-            android:id="@+id/textView18"
-            android:layout_gravity="center"
-            android:textColor="#010101"
-            android:layout_weight="10"
-            android:layout_below="@+id/textView11"
-            android:layout_toRightOf="@+id/toHome"/>
-
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="mmHG"
-            android:id="@+id/textView14"
-            android:layout_gravity="center"
-            android:textColor="#010101"
-            android:layout_weight="10"
-            android:layout_alignTop="@+id/textView11"
-            android:layout_alignLeft="@+id/textView6"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -91,9 +70,10 @@
             android:textColor="#010101"
             android:layout_weight="10"
             android:textSize="20dp"
-            android:layout_alignTop="@+id/windBearingView"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="14dp"/>
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:layout_alignBottom="@+id/windBearingView"
+        android:layout_alignTop="@+id/windBearingView" />
 
     <TextView
             android:layout_width="fill_parent"
@@ -105,7 +85,8 @@
             android:textColor="#010101"
             android:layout_below="@+id/windSpeed"
             android:layout_alignRight="@+id/windSpeedOutput"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:enabled="false" />
 
     <TextView
             android:layout_width="wrap_content"
@@ -116,19 +97,9 @@
             android:textColor="#010101"
             android:layout_weight="10"
             android:textSize="20dp"
-            android:layout_below="@+id/windSpeedView"
-            android:layout_alignLeft="@+id/bearingView"/>
+        android:layout_below="@+id/windSpeedView"
+        android:layout_alignLeft="@+id/visibilityView" />
 
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="MPH"
-            android:textColor="#010101"
-            android:id="@+id/textView6"
-            android:layout_gravity="center"
-            android:layout_weight="10"
-            android:layout_alignTop="@+id/windSpeed"
-            android:layout_toRightOf="@+id/textView"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -138,11 +109,11 @@
             android:layout_gravity="left"
             android:layout_weight="10"
             android:textColor="#010101"
-            android:layout_marginTop="15dp"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"
-            android:textSize="20dp"
-            android:textIsSelectable="false"/>
+            android:layout_marginTop="12dp"
+        android:textSize="20dp"
+            android:textIsSelectable="false"
+        android:layout_below="@+id/location_spot"
+        android:layout_alignParentLeft="true" />
 
     <TextView
             android:layout_width="fill_parent"
@@ -153,8 +124,8 @@
             android:layout_gravity="center"
             android:layout_weight="10"
             android:textSize="20dp"
-            android:layout_alignTop="@+id/textView6"
-            android:layout_alignLeft="@+id/bearingView"/>
+        android:layout_alignTop="@+id/windSpeed"
+        android:layout_alignLeft="@+id/location_spot" />
 
     <TextView
             android:layout_width="wrap_content"
@@ -163,8 +134,8 @@
             android:textColor="#010101"
             android:id="@+id/bearingView"
             android:textSize="20dp"
-            android:layout_above="@+id/textView11"
-            android:layout_toLeftOf="@+id/textView14"/>
+        android:layout_above="@+id/textView11"
+        android:layout_alignLeft="@+id/windSpeedOutput" />
 
     <TextView
             android:layout_width="wrap_content"
@@ -173,30 +144,69 @@
             android:textColor="#010101"
             android:id="@+id/visibilityView"
             android:textSize="20dp"
-            android:layout_below="@+id/textView11"
-            android:layout_alignRight="@+id/textView"/>
-
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Text"
-            android:textColor="#010101"
-            android:id="@+id/textView4"
-            android:layout_above="@+id/textView14"
-            android:layout_toRightOf="@+id/goodorbad"/>
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/bearingView" />
 
     <Button
             android:layout_width="170dp"
             android:layout_height="230dp"
-
             android:background="@drawable/kite_3"
             android:textColor="#000000"
-            android:layout_alignParentBottom="true"
             android:id="@+id/toHome"
-            android:layout_below="@+id/goodorbad"
-            android:layout_centerHorizontal="true"/>
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/goodorbad"
+        android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="mmgh"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_toRightOf="@+id/toHome"
+        android:textColor="#010101" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="direction"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/textView11"
+        android:layout_alignLeft="@+id/textView"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="miles"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/textView"
+        android:textColor="#040404" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="mpg"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/windSpeed"
+        android:layout_toRightOf="@+id/toHome"
+        android:textColor="#030303"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Weather Info Provided forecast.api"
+        android:id="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/location_spot"
+        android:layout_marginBottom="13dp" />
 
 
 </RelativeLayout>

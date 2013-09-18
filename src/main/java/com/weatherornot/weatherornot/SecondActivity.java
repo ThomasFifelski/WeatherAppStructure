@@ -30,12 +30,17 @@ public class SecondActivity extends Activity {
 
         double a;
         double b;
+        String q;
 
         a =  getIntent().getDoubleExtra("lat",0);
         b = getIntent().getDoubleExtra("long",0);
+        q = getIntent().getStringExtra("eD");
 
 
-       // b= intent.getStringExtra("long",0);
+        TextView p =(TextView)findViewById(R.id.location_spot);
+        p.setText(q);
+
+        // b= intent.getStringExtra("long",0);
 
 //        goGetWeatherData();
 
@@ -84,6 +89,28 @@ public class SecondActivity extends Activity {
 //        });
 
     }
+    public class DisplayMessageActivity extends Activity {
+
+
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+
+            setContentView(R.layout.fly_info);
+            TextView tv = (TextView) findViewById(R.id.location_info);
+
+
+            // Get the message from the intent
+//            Intent intent;
+//            intent = getIntent();
+//            String message = intent.getStringExtra("fish",message);
+//
+//            //Display the message in textview
+//            tv.setText(message);
+
+        }
+    }
 
 
 //        toData.setOnClickListener(new View.OnClickListener() {
@@ -130,7 +157,7 @@ public class SecondActivity extends Activity {
         z.setText(myData.getmPressureString());
 
         TextView a =(TextView)findViewById(R.id.visibilityView);
-        a.setText(myData.getmVisibiltyString());
+        a.setText(myData.getmVisibilityString());
 
 
 

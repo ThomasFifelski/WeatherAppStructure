@@ -8,7 +8,7 @@ public class KiteFlyingData {
     private Double mWindSpeed;
     private Double mWindBearing;
     private Double mPressure;
-    private Double mVisibilty;
+    private Double mVisibility;
 
     public Double getmWindSpeed() {
         return mWindSpeed;
@@ -46,15 +46,16 @@ public class KiteFlyingData {
         this.mPressure = mPressure;
     }
 
-    public Double getmVisibilty() {
-        return mVisibilty;
+    public Double getmVisibility() {
+        return mVisibility;
     }
-    public String getmVisibiltyString(){
-        return mWindSpeed.toString();
+    public String getmVisibilityString(){
+        return mVisibility.toString();
+
     }
 
-    public void setmVisibilty(Double mVisibilty) {
-        this.mVisibilty = mVisibilty;
+    public void setmVisibility(Double mVisibility) {
+        this.mVisibility = mVisibility;
     }
 
 

@@ -33,10 +33,6 @@ public class HomeActitivty extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
-
                 Log.e("here", "are we");
         Button toData = (Button)findViewById(R.id.to_data);
 
@@ -49,6 +45,7 @@ public class HomeActitivty extends Activity {
                   GetLocationTask myLocationGettingTask = new GetLocationTask();
                   myLocationGettingTask.execute("String from edit text");
 
+
             }
 
         });
@@ -60,20 +57,39 @@ public class HomeActitivty extends Activity {
 //
 //    i.putExtra("goodStuff",42);
 //    i.putExtra("texas","fish");
-//    sendBroadcast(i);
+
+//    //    sendBroadcast(i);
+//    public final static String EXTRA_MESSAGE = "fish";
+//
+//    public void sendMessage(View view) {
+//        Intent intent = new Intent(this, SecondActivity.DisplayMessageActivity.class);
+//        EditText editText = (EditText) findViewById(R.id.ed1);
+//        String message = editText.getText().toString();
+//        intent.putExtra("fish", message);
+//        startActivity(intent);
+//
+//    }
 
     private void goToFlyInfo(Location mySpot){
         Intent i =new Intent(getApplicationContext(),SecondActivity.class);
 //        double longitude;
 //        double latitude;
+        EditText et = (EditText) findViewById(R.id.ed1);
+        String str = et.getText().toString();
+        i.putExtra("eD",str);
         i.putExtra("lat",mySpot.getLatitude());
         i.putExtra("long",mySpot.getLongitude());
 
 
         startActivity(i);
         finish( );
-
-    }
+//
+//        Intent intent = new Intent(this, SecondActivity.DisplayMessageActivity.class);
+//        EditText editText = (EditText) findViewById(R.id.ed1);
+//        String message = editText.getText().toString();
+//        intent.putExtra("fish", message);
+//        startActivity(intent);
+  }
 
     public class GetLocationTask extends AsyncTask<String,Integer,Location>
     {
@@ -86,9 +102,10 @@ public class HomeActitivty extends Activity {
             try {
                 HttpClient httpClient = new DefaultHttpClient();
              //  String personalityURL = mAPI_Url.replace("jimmy",personality);
-                 EditText et = (EditText) findViewById(R.id.ed1);
+                EditText et = (EditText) findViewById(R.id.ed1);
                 String str = et.getText().toString();
-               str = str.replace(' ', '_');
+
+                str = str.replace(' ', '_');
 //                System.out.println(str);
                 HttpGet g = new HttpGet(mAPI_Url.replace("cheese", str));
                 HttpResponse httpResponse = httpClient.execute(g);
@@ -118,6 +135,13 @@ public class HomeActitivty extends Activity {
 
                     Double lat= spaceJson.getDouble("lat");
                     mySpot.setLatitude(lat);
+
+
+
+
+
+
+
 
 //                    //and put that data in the ReallyCool Data object
 //                    String lng = postalCodesJson.getString("lng");

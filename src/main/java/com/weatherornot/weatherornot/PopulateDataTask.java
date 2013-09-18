@@ -87,8 +87,8 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
                 Double pressure = currentlyJson.getDouble("pressure");
                 myData.setmPressure(pressure);
 
-                Double visibilty = currentlyJson.getDouble("visibilty");
-                myData.setmVisibilty(visibilty);
+                Double visibility = currentlyJson.getDouble("visibility");
+                myData.setmVisibility(visibility);
               //Faster way of doing the same thing.
 //                myData.setmVisibilty(currentlyJson.getDouble("visibility"));
 //                myData.setmWindBearing(currentlyJson.getDouble("windBearing"));
