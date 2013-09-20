@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -32,6 +33,7 @@ public class HomeActitivty extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
                 Log.e("here", "are we");
         Button toData = (Button)findViewById(R.id.to_data);
@@ -72,8 +74,14 @@ public class HomeActitivty extends Activity {
 
     private void goToFlyInfo(Location mySpot){
         Intent i =new Intent(getApplicationContext(),SecondActivity.class);
-//        double longitude;
-//        double latitude;
+
+        if (mySpot.getLatitude()== 0  ){
+
+            Toast.makeText(getApplicationContext(), "Invalid Location", Toast.LENGTH_LONG).show();
+                    return;}
+
+
+
         EditText et = (EditText) findViewById(R.id.ed1);
         String str = et.getText().toString();
         i.putExtra("eD",str);
@@ -83,12 +91,11 @@ public class HomeActitivty extends Activity {
 
         startActivity(i);
         finish( );
-//
-//        Intent intent = new Intent(this, SecondActivity.DisplayMessageActivity.class);
-//        EditText editText = (EditText) findViewById(R.id.ed1);
-//        String message = editText.getText().toString();
-//        intent.putExtra("fish", message);
-//        startActivity(intent);
+
+
+
+
+
   }
 
     public class GetLocationTask extends AsyncTask<String,Integer,Location>
@@ -106,7 +113,8 @@ public class HomeActitivty extends Activity {
                 String str = et.getText().toString();
 
                 str = str.replace(' ', '_');
-//                System.out.println(str);
+
+
                 HttpGet g = new HttpGet(mAPI_Url.replace("cheese", str));
                 HttpResponse httpResponse = httpClient.execute(g);
                 StatusLine statusLine = httpResponse.getStatusLine();
@@ -135,6 +143,10 @@ public class HomeActitivty extends Activity {
 
                     Double lat= spaceJson.getDouble("lat");
                     mySpot.setLatitude(lat);
+
+
+
+
 
 
 
@@ -190,6 +202,9 @@ public class HomeActitivty extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+
+
+
         return true;
     }
 

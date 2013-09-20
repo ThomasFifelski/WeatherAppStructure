@@ -24,7 +24,8 @@ public class SecondActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fly_info);
-       Log.e("look", "howbout now");
+
+        Log.e("look", "howbout now");
         mp = MediaPlayer.create(this, R.raw.wind);
 
 
@@ -35,6 +36,10 @@ public class SecondActivity extends Activity {
         a =  getIntent().getDoubleExtra("lat",0);
         b = getIntent().getDoubleExtra("long",0);
         q = getIntent().getStringExtra("eD");
+
+
+
+
 
 
         TextView p =(TextView)findViewById(R.id.location_spot);
