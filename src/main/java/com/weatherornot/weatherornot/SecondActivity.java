@@ -15,7 +15,7 @@ import android.widget.TextView;
  * Created by tom on 9/9/13.
  */
 public class SecondActivity extends Activity {
-    public MediaPlayer mp ;
+    public MediaPlayer mp = new MediaPlayer();
 // change
     public PopulateDataTask getWeatherData;
 
@@ -26,7 +26,8 @@ public class SecondActivity extends Activity {
         setContentView(R.layout.fly_info);
 
         Log.e("look", "howbout now");
-        mp = MediaPlayer.create(this, R.raw.cold_wind);
+        mp = MediaPlayer.create(this, R.raw.wind);
+        mp.start();
 
 
         double a;

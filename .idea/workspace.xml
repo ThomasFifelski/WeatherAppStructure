@@ -16,8 +16,10 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26dd1812-bd18-42e9-8133-43adf54b5aca" name="Default" comment="update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+    <list default="true" id="26dd1812-bd18-42e9-8133-43adf54b5aca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/raw/wind.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" afterPath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeatherAppStructure.iws" />
@@ -40,7 +42,7 @@
   </component>
   <component name="DebuggerManager">
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="150" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="151" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
         <option name="WATCH_ENTRY" value="true" />
         <option name="WATCH_EXIT" value="true" />
         <option name="ENABLED" value="true" />
@@ -95,7 +97,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="110" class="com.weatherornot.weatherornot.SecondActivity.DisplayMessageActivity" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="111" class="com.weatherornot.weatherornot.SecondActivity.DisplayMessageActivity" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -110,7 +112,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="45" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="46" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -125,7 +127,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="164" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="165" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -185,7 +187,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="38" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="39" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -215,6 +217,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="33" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" line="29" class="com.weatherornot.weatherornot.SecondActivity" package="com.weatherornot.weatherornot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -226,10 +258,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeActitivty.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HomeActitivty.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="70" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="3270">
+            <state line="81" column="0" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.76086956" vertical-offset="600" max-vertical-offset="2865">
               <folding />
             </state>
           </provider>
@@ -238,7 +270,7 @@
       <file leaf-file-name="PopulateDataTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/PopulateDataTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="0" selection-start="3337" selection-end="3337" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="2070">
+            <state line="77" column="0" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
               <folding />
             </state>
           </provider>
@@ -256,10 +288,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="208" selection-end="208" vertical-scroll-proportion="0.10380623" vertical-offset="30" max-vertical-offset="690">
+            <state line="4" column="28" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -277,7 +309,7 @@
       <file leaf-file-name="SecondActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="53" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2580">
+            <state line="30" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2595">
               <folding />
             </state>
           </provider>
@@ -339,15 +371,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/PopulateDataTask.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/fly_info.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="39" />
+    <option name="x" value="-11" />
+    <option name="y" value="22" />
     <option name="width" value="1271" />
     <option name="height" value="774" />
   </component>
@@ -377,9 +409,24 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeatherAppTom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android 4.2.2 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="WeatherAppTom" />
@@ -502,21 +549,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="98" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="100" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="100" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="99" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/src/main/main.apk" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="ExportedApkPath" value="$PROJECT_DIR$/src/main/main2.apk" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="99" />
     <property name="ExportedModule" value="main" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WeatherAppTom.keystore" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="109" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="899" />
@@ -532,8 +578,8 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -790,7 +836,11 @@
       <created>1379779948151</created>
       <updated>1379779948151</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="version update">
+      <created>1379780236244</created>
+      <updated>1379780236244</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -814,7 +864,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="39" width="1271" height="774" extended-state="6" />
+    <frame x="-11" y="22" width="1271" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -822,13 +872,13 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36524302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36391437" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48012233" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842416" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5152905" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5152905" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -849,13 +899,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62538224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48012233" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2078125" sideWeight="0.48600882" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49484536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -896,7 +946,8 @@
     <MESSAGE value="turned off auto rotate" />
     <MESSAGE value="fixed location" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="version update" />
+    <option name="LAST_COMMIT_MESSAGE" value="version update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -906,6 +957,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable-mdpi/good_or_bad.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -938,13 +999,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/PopulateDataTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="3337" selection-end="3337" vertical-scroll-proportion="0.0" vertical-offset="1021" max-vertical-offset="1890">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/fly_info.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -972,37 +1026,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java">
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="70" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/raw/cold_wind.wav">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="29" selection-start="13939" selection-end="13939" vertical-scroll-proportion="0.054347824" vertical-offset="0" max-vertical-offset="276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="53" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2580">
+        <state line="4" column="28" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/ForecastAPIRequestObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1245">
+        <state line="16" column="4" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/PopulateDataTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="208" selection-end="208" vertical-scroll-proportion="0.10380623" vertical-offset="30" max-vertical-offset="690">
+        <state line="77" column="0" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.76086956" vertical-offset="600" max-vertical-offset="2865">
           <folding />
         </state>
       </provider>

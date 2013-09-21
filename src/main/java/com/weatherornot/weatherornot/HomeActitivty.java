@@ -77,7 +77,7 @@ public class HomeActitivty extends Activity {
 
         if (mySpot.getLatitude()== 0  ){
 
-            Toast.makeText(getApplicationContext(), "Invalid Location ", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Try a Zip Code", Toast.LENGTH_LONG).show();
                     return;}
 
 
