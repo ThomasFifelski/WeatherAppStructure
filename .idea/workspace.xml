@@ -17,8 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26dd1812-bd18-42e9-8133-43adf54b5aca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" afterPath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeatherAppStructure.iws" />
@@ -257,10 +256,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="690">
+            <state line="10" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.3633218" vertical-offset="45" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -275,10 +274,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SecondActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="53" selection-start="752" selection-end="752" vertical-scroll-proportion="0.7266436" vertical-offset="75" max-vertical-offset="2580">
+            <state line="28" column="53" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2580">
               <folding />
             </state>
           </provider>
@@ -339,15 +338,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/KiteFlyingData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/PopulateDataTask.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/fly_info.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/HomeActitivty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
+    <option name="x" value="-28" />
     <option name="y" value="22" />
     <option name="width" value="1271" />
     <option name="height" value="774" />
@@ -515,7 +514,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="ExportedApkPath" value="$PROJECT_DIR$/src/main/main.apk" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/src/main/main2.apk" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="ExportedModule" value="main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WeatherAppTom.keystore" />
@@ -783,7 +782,11 @@
       <created>1379694213291</created>
       <updated>1379694213293</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update">
+      <created>1379778941071</created>
+      <updated>1379778941071</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -807,7 +810,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="22" width="1271" height="774" extended-state="0" />
+    <frame x="-28" y="22" width="1271" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -888,7 +891,8 @@
     <MESSAGE value="Touches before playstore" />
     <MESSAGE value="turned off auto rotate" />
     <MESSAGE value="fixed location" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed location" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -947,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/ForecastAPIRequestObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/gen/com/weatherornot/weatherornot/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="46" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
@@ -967,13 +964,6 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state line="19" column="33" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
@@ -994,7 +984,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/SecondActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="53" selection-start="752" selection-end="752" vertical-scroll-proportion="0.7266436" vertical-offset="75" max-vertical-offset="2580">
+        <state line="28" column="53" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weatherornot/weatherornot/ForecastAPIRequestObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.3633218" vertical-offset="45" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
