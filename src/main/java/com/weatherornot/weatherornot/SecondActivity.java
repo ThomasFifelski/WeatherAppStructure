@@ -26,7 +26,7 @@ public class SecondActivity extends Activity {
         setContentView(R.layout.fly_info);
 
         Log.e("look", "howbout now");
-        mp = MediaPlayer.create(this, R.raw.wind);
+        mp = MediaPlayer.create(this, R.raw.cold_wind);
 
 
         double a;
