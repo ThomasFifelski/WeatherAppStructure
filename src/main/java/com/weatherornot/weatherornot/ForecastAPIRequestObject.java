@@ -18,11 +18,6 @@ public class ForecastAPIRequestObject {
 
         setMyLocation(m);
     }
-//notsure
-//    public Location getMyLocation() {
-//
-//        return myLocation;
-//    }
 
     public void setMyLocation(Location myLocation) {
         this.myLocation = myLocation;

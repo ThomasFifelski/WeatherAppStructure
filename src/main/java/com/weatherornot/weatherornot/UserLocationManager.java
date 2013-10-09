@@ -41,9 +41,6 @@ public class UserLocationManager implements LocationListener{
     @Override
     public void onLocationChanged(Location location) {
 
-
-        //ill be told the location here.
- //       Log.e("UserLocationManager=", location.getLatitude() + "," + location.getLongitude());
         if (locationManager != null){
             locationManager.removeUpdates(this);
 
@@ -52,14 +49,8 @@ public class UserLocationManager implements LocationListener{
 
         }
 
-
-
-
-////       fix error by stopping looking for location change again  locationListenerObject
-      //onLocationChanged(location).removeGpsStatusListener(this);
-
     }
-// We need to go from steps 7-8
+
     @Override
     public void onStatusChanged(String s, int i, Bundle bundle) {
 

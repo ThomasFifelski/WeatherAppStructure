@@ -46,31 +46,11 @@ public class HomeActitivty extends Activity {
 //                mp.start();
                   GetLocationTask myLocationGettingTask = new GetLocationTask();
                   myLocationGettingTask.execute("String from edit text");
-
-
             }
 
         });
 
     }
-
-//    Intent i = new Intent();
-//    i.setAction("Gold");
-//
-//    i.putExtra("goodStuff",42);
-//    i.putExtra("texas","fish");
-
-//    //    sendBroadcast(i);
-//    public final static String EXTRA_MESSAGE = "fish";
-//
-//    public void sendMessage(View view) {
-//        Intent intent = new Intent(this, SecondActivity.DisplayMessageActivity.class);
-//        EditText editText = (EditText) findViewById(R.id.ed1);
-//        String message = editText.getText().toString();
-//        intent.putExtra("fish", message);
-//        startActivity(intent);
-//
-//    }
 
     private void goToFlyInfo(Location mySpot){
         Intent i =new Intent(getApplicationContext(),SecondActivity.class);
@@ -80,25 +60,17 @@ public class HomeActitivty extends Activity {
             Toast.makeText(getApplicationContext(), "Try a Zip Code", Toast.LENGTH_LONG).show();
                     return;}
 
-
-
         EditText et = (EditText) findViewById(R.id.ed1);
         String str = et.getText().toString();
         i.putExtra("eD",str);
         i.putExtra("lat",mySpot.getLatitude());
         i.putExtra("long",mySpot.getLongitude());
-
-
         startActivity(i);
         finish( );
-
-
-
-
-
   }
 
     public class GetLocationTask extends AsyncTask<String,Integer,Location>
+
     {
 
         @Override
@@ -114,7 +86,6 @@ public class HomeActitivty extends Activity {
 
                 str = str.replace(' ', '_');
 
-
                 HttpGet g = new HttpGet(mAPI_Url.replace("cheese", str));
                 HttpResponse httpResponse = httpClient.execute(g);
                 StatusLine statusLine = httpResponse.getStatusLine();
@@ -124,14 +95,7 @@ public class HomeActitivty extends Activity {
                     out.close();
                     String responseString = out.toString();
                     Log.v("TAG", responseString);
-//
-//                    //Parse the data from the api using JSONObject methods
-//                    JSONObject rootJSON= new JSONObject(responseString);
-//                    JSONObject currentlyJson= rootJSON.getJSONObject("currently");
-//
-//                    Double windSpeed = currentlyJson.getDouble("windSpeed");
-//                    //and put that data in the ReallyCool Data object
-//                    myData.setmWindSpeed(windSpeed);
+
 
                     //Parse the data from the api using JSONObject methods
                     JSONObject rootJSON= new JSONObject(responseString);
@@ -145,25 +109,6 @@ public class HomeActitivty extends Activity {
                     mySpot.setLatitude(lat);
 
 
-
-
-
-
-
-
-
-
-
-
-//                    //and put that data in the ReallyCool Data object
-//                    String lng = postalCodesJson.getString("lng");
-//                    mySpot.setLongitude(Double.parseDouble("lng"));
-
-                    // Faster way of doing the same thing.
-//                myData.setmVisibilty(currentlyJson.getDouble("visibility"));
-//                myData.setmWindBearing(currentlyJson.getDouble("windBearing"));
-//                myData.setmPressure(currentlyJson.getDouble("pressure"));
-
                 } else {
                     httpResponse.getEntity().getContent().close();
                 }
@@ -174,11 +119,6 @@ public class HomeActitivty extends Activity {
             return mySpot;
 
         }
-
-            //go get it
-
-
-
 
         @Override
         protected void onPreExecute() {
@@ -200,10 +140,8 @@ public class HomeActitivty extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.main, menu);
-
-
 
         return true;
     }

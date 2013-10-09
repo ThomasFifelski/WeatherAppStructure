@@ -34,7 +34,7 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
     public PopulateDataTask(SecondActivity activity, Location loc){
 
         super();
-        Log.e("look","3");
+        Log.e("look","5");
         myFriendDisplayWeatherActivity = activity;
         //goGetLocation();
         receiveUserLocation(loc);
@@ -49,7 +49,7 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
 //step 6
     public void receiveUserLocation(Location location){
        ForecastAPIRequestObject forecastAPIRequestObject = new ForecastAPIRequestObject(location);
-                  //forecastAPIRequestObject.setMyLocation(location); option for setting but we used a constructor
+         //forecastAPIRequestObject.setMyLocation(location); option for setting but we used a constructor
         this.execute(forecastAPIRequestObject);
         // In this method I'm receiving the user location
         // I need to call a method that takes that location and  makes a request
@@ -63,7 +63,6 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
         //get the information that we need from API
         try {
             HttpClient httpClient = new DefaultHttpClient();
-         //  http://api.geonames.org/postalCodeSearchJSON?placename=9011&maxRows=10&username=tomfifelski
             HttpGet g = new HttpGet(forecastAPIRequestObjects[0].getAssembledURL());
             HttpResponse httpResponse = httpClient.execute(g);
             StatusLine statusLine = httpResponse.getStatusLine();
@@ -89,10 +88,7 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
 
                 Double visibility = currentlyJson.getDouble("visibility");
                 myData.setmVisibility(visibility);
-              //Faster way of doing the same thing.
-//                myData.setmVisibilty(currentlyJson.getDouble("visibility"));
-//                myData.setmWindBearing(currentlyJson.getDouble("windBearing"));
-//                myData.setmPressure(currentlyJson.getDouble("pressure"));
+
 
             } else {
                 httpResponse.getEntity().getContent().close();
@@ -115,13 +111,8 @@ public class PopulateDataTask extends AsyncTask<ForecastAPIRequestObject,Integer
     protected void onPostExecute(KiteFlyingData myDataObject) {
 
         super.onPostExecute(myDataObject);
-        //get the result of doinBackground as a KitFlyingData object
-        //put the data somewhere esle to display it
-
 
         myFriendDisplayWeatherActivity.recieveWeatherData(myDataObject);
-
-
 
     }
 

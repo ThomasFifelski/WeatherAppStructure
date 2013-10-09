@@ -29,7 +29,6 @@ public class SecondActivity extends Activity {
         mp = MediaPlayer.create(this, R.raw.wind);
         mp.start();
 
-
         double a;
         double b;
         String q;
@@ -38,17 +37,8 @@ public class SecondActivity extends Activity {
         b = getIntent().getDoubleExtra("long",0);
         q = getIntent().getStringExtra("eD");
 
-
-
-
-
-
         TextView p =(TextView)findViewById(R.id.location_spot);
         p.setText(q);
-
-        // b= intent.getStringExtra("long",0);
-
-//        goGetWeatherData();
 
         Location l = new Location("");
         l.setLatitude(a);
@@ -67,32 +57,6 @@ public class SecondActivity extends Activity {
 
         });
 
-//
-//        Button toData = (Button)findViewById(R.id.to_data);
-//
-//        toData.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i =new Intent(getApplicationContext(),FlyInfo.class);
-//                  startActivity(i);
-//                    finish( );
-//
-//            }
-//
-//
-//
-//        });
-//        buttonToSecondActivity.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i =new Intent(getApplicationContext(),FlyInfo.class);
-//                startActivity(i);
-//                finish();
-//
-//
-//
-//            }
-//        });
 
     }
     public class DisplayMessageActivity extends Activity {
@@ -106,38 +70,11 @@ public class SecondActivity extends Activity {
             setContentView(R.layout.fly_info);
             TextView tv = (TextView) findViewById(R.id.location_info);
 
-
-            // Get the message from the intent
-//            Intent intent;
-//            intent = getIntent();
-//            String message = intent.getStringExtra("fish",message);
-//
-//            //Display the message in textview
-//            tv.setText(message);
-
         }
     }
 
 
-//        toData.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(a)
-//                //setContentView(R.layout.fly_info);
-//            }
-//        });
 
-//    private void updateDisplay(){
-//
-//     check to see if we have some weather data, and
-//     update the screen to reflect that new data
-//    }
-//
-//
-//     The following two methods are used to start other asynchronous
-//     processes outside of this activity.
-
-    //step 1
     public void goGetWeatherData(){
         Log.e("look","2");
         getWeatherData = new PopulateDataTask(this);
@@ -164,8 +101,6 @@ public class SecondActivity extends Activity {
 
         TextView a =(TextView)findViewById(R.id.visibilityView);
         a.setText(myData.getmVisibilityString());
-
-
 
     }
 
